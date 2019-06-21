@@ -36,6 +36,10 @@ let state = $(this).attr('data-state');
     };
 });
 
+function buttons (){
+
+}
+
 
 
 
