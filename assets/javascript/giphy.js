@@ -1,6 +1,6 @@
 let disneyCharacters = ["Mickey Mouse", "The Little Mermaid", "Snow White", "Aladdin", "Toy Story", "The Incredibles", "Frozen", "Coco", "The Lion King", "Tangled"];
 
-$('button').on('click', function(){
+$('button').on('click',function(){
 let x = $(this).data("search");  
 let queryURL = "http://api.giphy.com/v1/gifs/search?q=" + x + "&api_key=FQ97111psyXiVqpCGUJcUrsQ8yz57XaZ&limit=10";
 
