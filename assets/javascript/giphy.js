@@ -2,7 +2,7 @@ let disneyCharacters = ["Mickey Mouse", "The Little Mermaid", "Snow White", "Ala
 
 $('button').on('click',function(){
 let x = $(this).data("search");  
-let queryURL = "http://api.giphy.com/v1/gifs/search?q=" + x + "&api_key=FQ97111psyXiVqpCGUJcUrsQ8yz57XaZ&limit=10";
+let queryURL = "https://api.giphy.com/v1/gifs/search?q=" + x + "&api_key=FQ97111psyXiVqpCGUJcUrsQ8yz57XaZ&limit=10";
 
 $.ajax({url:queryURL, method:'GET'}).done(function(response){
     let results = response.data
